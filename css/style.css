@@ -1,0 +1,114 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*this is css reset*/
+body {
+    background-color: rgb(255, 255, 255);
+}
+/*add color to body element*/
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+height: 10vh;
+background-color: rgb(157, 182, 192);
+display: flex;
+align-items: center;
+padding: 0 20px;
+
+}
+ 
+.main {
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+footer {
+    height: 80vh;
+    background-color:rgb(157, 182, 192);
+    text-align: left;
+    font-family: 'Prata', serif;
+    color: white;
+    height: 100vh;
+    padding-left: 100px;
+}
+
+header {
+    display: flex;
+}
+span {
+    font-family: 'Prata', serif;
+    color:rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+ul li {
+    display: inline-block;
+}
+ul li a {
+    font-family: 'Prata', serif;
+    text-decoration: none;
+    padding: 0 8px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+ul li a:hover {
+    color: rgb(144, 124, 124);
+
+}
+nav {
+    margin-left: auto;
+}
+h1 {
+    color: rgb(144, 124, 124);
+    font-family: 'Prata', serif;
+    height: 30vh;
+}
+ p {
+    color: rgb(144, 124, 124);
+    font-family: 'Prata', serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+   /*img {
+    border-radius: 50% ;
+  }*/
+  input[type=text] {
+    padding:5px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+    font-size: 15px;
+  }
+  h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Prata', serif;
+  }
+  .button {
+    background-color: rgb(144, 124, 124);
+    border: none;
+    color: white;
+    padding:5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Prata', serif;
+  }
+  
